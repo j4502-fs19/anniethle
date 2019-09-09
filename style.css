@@ -1,0 +1,46 @@
+/*styles go here*/
+#container{
+  width: 85%;
+  background-color: lightpink;
+  margin: 0 auto;
+}
+
+#nav {
+  width: 100%;
+  background-color: lightpink;
+  padding: 0px;
+  margin: 0px auto;
+}
+
+
+h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 100px;
+}
+
+
+body {
+  color: white;
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+  font-size: 30px;
+}
+
+li {
+  list-style-type: none;
+  font-family: 'Manjari', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  border:0;
+}
