@@ -1,15 +1,23 @@
 /*styles go here*/
 #container{
-  width: 85%;
+  width: 95%;
   background-color: lightpink;
   margin: 0 auto;
 }
 
-#nav {
+.nav {
   width: 100%;
-  background-color: lightpink;
-  padding: 0px;
-  margin: 0px auto;
+  background-color: white;
+  margin: 0px;
+}
+
+.item-1, .item-2, .item-3, .item-4, .item-5, .item-6 {
+  background-color: lightblue;
+  padding: 10px;
+  color: white;
+  border-radius: 5px;
+  margin: 1px;
+  font-size: 20px;
 }
 
 
@@ -37,9 +45,6 @@ li {
   font-size: 20px;
 }
 
-a {
-  text-decoration: none;
-}
 
 img {
   border:0;
