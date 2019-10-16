@@ -1,7 +1,7 @@
 /*cards go here*/
 .cards {
-  margin: 0 -5px;
-  padding: 0;
+  margin: 0px;
+  padding: 50px;
   list-style: none;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -10,7 +10,7 @@
 
 .cards li {
   background-color: lightgreen;
-  border: 1px solid #ccc;
+  border: 1px solid white;
   padding: 10px;
   border-radius: 5px;
   margin: 10px;
