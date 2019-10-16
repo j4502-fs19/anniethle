@@ -29,7 +29,29 @@ h1 {
     font-size: 100px;
 }
 
+h2 {
+    color: lightpink;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
+    font-size: 75px;
+}
 
+h3 {
+    color: white;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    font-size: 50px;
+}
+
+p {
+    color: white;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+}
 body {
   color: white;
   text-align: center;
