@@ -1,0 +1,127 @@
+/*nav go here*/
+@media (max-width: 600px) {
+#menu {
+  width: 35px;
+  height: 35px;
+  margin: 40px 0px 30px 30px;
+  cursor: pointer;
+}
+
+.bar {
+    height: 5px;
+    width: 100%;
+    background-color:gray;
+    display: block;
+    border-radius: 5px;
+    transition: .5s ease;
+}
+
+#bar1{
+  transform:translateY(-5px);
+}
+
+#bar3{
+  transform:translateY(5px);
+}
+
+.nav li a{
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.nav li a:hover{
+  font-weight: bold;
+  color: gray;
+  background-color: white;
+}
+
+.nav li{
+  list-style: none;
+  padding: 10px 0;
+}
+
+.nav {
+  padding: 4px;
+  margin: 0 23px;
+  transition: 3s ease;
+  display: none;
+}
+
+.menu-bg, #menu-bar{
+  top:0;
+  left: 0;
+  position: absolute;
+}
+
+.menu-bg{
+  z-index: 1;
+  width: 0;
+  height: 0;
+  background: gray;
+  border-radius:50%;
+  transition: 1s ease;
+  margin: 100px 0px 50px 40px;
+}
+
+#menu-bar{
+  z-index: 2;
+}
+
+.change-bg{
+  width: 550px;
+  height:540px;
+  transform:translate(-50%,-40%)
+}
+
+.change .bar {
+  background-color: white;
+}
+
+.change #bar1{
+  transform:translateY(4px) rotateZ(-45deg);
+}
+
+.change #bar3{
+  transform:translateY(-6px) rotateZ(45deg);
+}
+
+.change #bar2{
+  opacity: 0;
+}
+
+.change{
+  display: block;
+}
+}
+
+@media (min-width: 601px) {
+
+.nav {
+  background-color: gray;
+  overflow: hidden;
+  list-style: none;
+  margin-left: -8px;
+  margin-right: -8px;
+}
+
+.nav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  padding-left: 12px;
+  padding-right: 12px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.nav a:hover {
+  background-color: white;
+  color: gray;
+}
+}

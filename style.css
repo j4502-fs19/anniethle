@@ -1,114 +1,17 @@
-/*styles go here*/
-#container{
-  width: 100%;
-  background-color: lightpink;
-}
-
-#menu {
-  width: 35px;
-  height: 35px;
-  margin: 40px 0px 30px 30px;
-  cursor: pointer;
-}
-
-.bar {
-    height: 5px;
-    width: 100%;
-    background-color:lightblue;
-    display: block;
-    border-radius: 5px;
-    transition: .5s ease;
-}
-
-#bar1{
-  transform:translateY(-5px);
-}
-
-#bar3{
-  transform:translateY(5px);
-}
-
-.nav li a{
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-}
-.nav li a:hover{
-  font-weight: bold;
-}
-.nav li{
-  list-style: none;
-  padding: 10px 0;
-}
-
-.nav {
-  padding: 4px;
-  margin: 0 23px;
-  transition: 3s ease;
-  display: none;
-}
-
-.menu-bg, #menu-bar{
-  top:0;
-  left: 0;
-  position: absolute;
-}
-
-.menu-bg{
-  z-index: 1;
-  width: 0;
-  height: 0;
-  background:radial-gradient(circle,lightpink,lightblue);
-  border-radius:50%;
-  transition: 1s ease;
-  margin: 100px 0px 50px 40px;
-}
-
-#menu-bar{
-  z-index: 2;
-}
-
-.change-bg{
-  width: 550px;
-  height:540px;
-  transform:translate(-50%,-40%)
-}
-
-.change .bar {
-  background-color: white;
-}
-
-.change #bar1{
-  transform:translateY(4px) rotateZ(-45deg);
-}
-
-.change #bar3{
-  transform:translateY(-6px) rotateZ(45deg);
-}
-
-.change #bar2{
-  opacity: 0;
-}
-
-.change{
-  display: block;
-}
-
-
 h1 {
-    color: white;
+    color: gray;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-    font-size: 100px;
+    font-weight: 300;
+    font-size: 90px;
 }
 
 h2 {
-    color: lightpink;
+    color: gray;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
-    font-weight: 200;
-    font-size: 75px;
+    font-weight: 100;
+    font-size: 40px;
 }
 
 h3 {
@@ -120,12 +23,24 @@ h3 {
 }
 
 p {
-    color: white;
+    color: gray;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     font-weight: 100;
     font-size: 20px;
 }
+
+
+#footer p{
+  line-height: 0.8em;
+  font-size: 12px;
+}
+
+#footer a:link, #footer a:visited{
+ text-decoration: none;
+ color:gray;
+}
+
 body {
   color: white;
   text-align: center;
