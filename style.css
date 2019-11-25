@@ -15,7 +15,7 @@ h2 {
 }
 
 h3 {
-    color: white;
+    color: gray;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     font-weight: 100;
@@ -53,4 +53,24 @@ li {
   font-family: 'Manjari', sans-serif;
   font-weight: 300;
   font-size: 20px;
+}
+
+.paragraph{
+  width:80%;
+  background-color: white;
+  margin:10px auto;
+  line-height: 1.5em;
+  padding-bottom: 50px;
+  align-content: left;
+}
+
+.paragraph p{
+
+  margin:1em;
+  line-height: 1.5em;
+  line-height: 1.5em;
+  padding-left: 2em;
+  text-align: left;
+  padding-right:2em;
+
 }
